@@ -1,0 +1,30 @@
+{
+    "name": "satooon/json-schema-gen",
+    "description": "JSON Schema generator",
+    "authors": [
+        {
+            "name": "Yoshiori Sato",
+            "email": "yy.satooon@gmail.com"
+        }
+    ],
+    "keywords": [
+        "php",
+        "laravel",
+        "JSON",
+        "JSON Schema"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/satooon/json-schema-gen",
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "anlutro/curl": "0.6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Satooon\\JsonSchemaGen\\": "src/JsonSchemaGen"
+        }
+    },
+    "minimum-stability": "stable"
+}
